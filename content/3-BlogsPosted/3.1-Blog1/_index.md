@@ -5,9 +5,7 @@ weight: 1
 chapter: false
 pre: " <b> 3.1. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
+
 
 # SESSION POLICIES IN AMAZON EKS POD IDENTITY
 
@@ -23,9 +21,4 @@ Key points to know:
 * Easily configured through the AWS Management Console, AWS CLI, or AWS SDK when creating an association between a Kubernetes ServiceAccount and an IAM role.
 
 This feature is especially useful when you have many applications running on the same IAM role but need different permission restrictions (for example: one pod only reads a specific S3 bucket, another pod only calls certain APIs).
-
-...Image...
-
-...Link...
-
-...Guide...
+![alt text](blog1.jpg)
